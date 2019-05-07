@@ -23,6 +23,7 @@ urlpatterns = [
     path('polls/', include('polls.urls')),
     path('', include('mainApp.urls')),
     path('news/', include('news.urls')),
+    #path('contact/', include('mainApp.urls')),
 
     #path('', include('polls.urls')),
     #url(r'^webexample/',include('polls.url')),

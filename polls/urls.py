@@ -9,6 +9,7 @@ urlpatterns = [
     path('webexample', views.examplePrint, name='exampleIndex'),
     # path('webexample', views.examplePrint, name='exampleIndex'),
     path('', views.print2, name='print2'),
+    #path('contact', views.print1(), name='print2'),
 
     # path('', views.examplePrint, name='exampleIndex'),
 
